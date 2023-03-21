@@ -1,0 +1,28 @@
+.Header {
+    background-color: rgb(161, 143, 40);
+}
+
+
+nav ul {
+    display: flex;
+    gap: 3%;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 8vh;
+}
+
+
+a {
+    font-size: 4vh;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 6px 1px white(0, 0, 0, 0.1);
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.504)
+}

@@ -1,0 +1,49 @@
+.Home {
+    user-select: none; 
+    background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
+    height: 70vh;
+    font-family: Fantasy;
+    text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15vh;
+
+}
+
+#title {
+    font-size: 15vh;
+    margin: 0;
+    
+}
+
+#roleTitle {
+    font-size: 7vh;
+    margin: 0;
+
+}
+
+#descriptionTitle {
+    font-size: 3vh;
+    width: 100vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+}
+button {
+    margin-top: 5vh;
+    background-color: #000000; /* Green background */
+    border: none; /* Remove button border */
+    color: white; /* Text color */
+    padding: 12px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 2.5vh; /* Font size */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Add hover effect */
+    transition: background-color 0.3s ease; /* Add smooth background transition */
+  }
+  
+  button:hover {
+    color:black;
+    background-color: white; /* Darker green on hover */
+  }
