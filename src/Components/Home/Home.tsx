@@ -1,6 +1,20 @@
 import "./Home.css";
 import "../../../src/"
 function Home(): JSX.Element {
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('RoeiBacharResume-ReactDeveloper.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'RoeiBacharResume-ReactDeveloper.pdf';
+                alink.click();
+            })
+        })
+    }
   return (
     <div className="Home">
       <p id="title"> I'm Roei Bachar</p>
@@ -10,7 +24,7 @@ function Home(): JSX.Element {
         portfolio website provides a comprehensive overview of my React skills
         and my dedication to staying up-to-date with the latest industry trends.
       </p>
-      <button><a href="src\Roei Bachar Resume - React Developer.pdf"/>Download CV</button>
+      <button onClick={onButtonClick}>Download CV</button>
       <p>OR</p>
       <a target="_blank" href="https://www.linkedin.com/in/roeibachar1/">
         <img

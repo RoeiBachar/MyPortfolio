@@ -1,11 +1,12 @@
 .Home {
     user-select: none; 
     background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
-    height: 70vh;
+    height: 63.5vh;
     font-family: Fantasy;
     text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 15vh;
+   
 
 }
 
