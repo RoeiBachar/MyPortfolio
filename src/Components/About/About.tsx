@@ -28,7 +28,6 @@ function About(): JSX.Element {
         <p className="fade-in4">
           Expertise in technologies such as React and TypeScript, NodeJS, and
           SQL.
-          AiFillPhone
         </p>
         <h2 className="fade-in6">
           Excellent team player, enjoy challenges, fast learner and diligent.
