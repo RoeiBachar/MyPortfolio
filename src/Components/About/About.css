@@ -1,3 +1,201 @@
 .About {
-	
+    background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
+    height: 400.5vh;
+}
+
+.content {
+    text-align: center;
+    font-family: Fantasy;
+    font-size: 5vh;
+    width: 80%;
+    padding: 0, auto;
+    margin: auto;
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fade-in 3s forwards;
+}
+
+.fade-in2 {
+    opacity: 0;
+    animation: fade-in 4s forwards;
+}
+
+.fade-in3 {
+    opacity: 0;
+    animation: fade-in 5s forwards;
+}
+
+.fade-in4 {
+    opacity: 0;
+    animation: fade-in 6s forwards;
+}
+
+.fade-in5 {
+    opacity: 0;
+    animation: fade-in 3s forwards;
+
+}
+
+.fade-in6 {
+    opacity: 0;
+    animation: fade-in 8s forwards;
+}
+
+.fade-in7 {
+    opacity: 0;
+    animation: fade-in 9s forwards;
+}
+
+.fade-in8 {
+    opacity: 0;
+    animation: fade-in 10s forwards;
+}
+
+img {
+    border-radius: 50%;
+    width: 30vh;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scroll-images {
+    0% {
+        transform: translateX(0vh);
+    }
+
+    100% {
+        transform: translateX(-13vh);
+    }
+}
+.text-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20) forwards;
+  }
+  .blur {
+    animation: blur 2s ease-in-out forwards;
+    filter: blur(10px);
+  }
+
+  @keyframes blur {
+    0% {
+      filter: blur(10px);
+    }
+    100% {
+      filter: blur(0);
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .image-effect {
+    animation: zoom-in 8s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+#scrollImageContainer {
+    margin-top:5vh ;
+    display: flex;
+    animation: scroll-images 3s linear infinite alternate;
+    gap:1%
+  }
+  #scrollImageContainer>img{
+    width: 20vh;
+    height: 18vh;
+
+  }
+#educationContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+span {
+
+    margin-top: 0
+}
+
+#jbContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    width: 45%;
+}
+
+#jbContainer img {
+    width: 20vh;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+#jbContainer h2 {
+    font-size: 5vh;
+    margin-top: 0;
+    margin: 0;
+}
+
+#ortContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    width: 45%;
+}
+
+#ortContainer img {
+    width: 20vh;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+#ortContainer h4, #jbContainer h4 {
+    margin-top: 0;
+}
+
+#ortContainer h2 {
+    font-size: 5vh;
+    margin: 0;
+}
+
+#ortContainer span {
+    font-style: italic;
+}
+
+#ortContainer p, #jbContainer p {
+    font-size: 4vh;
+}
+
+#ortContainer p>span, #jbContainer p>span {
+    display: block;
 }

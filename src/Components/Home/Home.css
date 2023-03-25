@@ -1,14 +1,13 @@
 .Home {
     user-select: none; 
     background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
-    height: 63.5vh;
+    height: 90.5vh;
     font-family: Fantasy;
     text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 15vh;
-   
-
+    padding: 5vh;
 }
+
 
 #title {
     font-size: 15vh;
@@ -24,6 +23,7 @@
 
 #descriptionTitle {
     font-size: 3vh;
+    transition: opacity 0.3s ease-in-out;
     width: 100vh;
     margin: 0 auto;
     margin-top: 10px;
