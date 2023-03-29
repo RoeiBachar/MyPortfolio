@@ -74,8 +74,15 @@ function About(): JSX.Element {
           <img src={node} />
           <img src={sql} />
           <img src={firebase} />
-
         </div>
+        <div id="contact">
+        <h1>Contact me</h1>
+        <h3>☎</h3>
+        <p>054-4297959</p>
+        <h3>✉</h3>
+        <p>roeibachar972@gmail.com</p>
+        </div>
+        
       </div>
     </div>
   );
