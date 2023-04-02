@@ -1,4 +1,35 @@
 .Portfolio {
     background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
-    height: 200.5vh;
+    height: 400.5vh;
+}
+
+.text-effect {
+    overflow: hidden;
+    animation: typing 6s steps(250) forwards;
+    margin: 0;
+    font-size: 3vh;
+    font-weight: bolder;
+    color: black;
+    font-family: Fantasy;
+    text-shadow: 6px 6px 1px white(0, 0, 0, 0.1);
+    margin-top: 5vh;
+    text-align: center;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+#cards {
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vh;
 }

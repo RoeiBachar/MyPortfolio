@@ -1,11 +1,22 @@
+import Card from "../Card/Card";
+import Header from "../Header/Header";
 import "./Portfolio.css";
 
 function Portfolio(): JSX.Element {
-    return (
-        <div className="Portfolio">
-			
-        </div>
-    );
+  return (
+    <div className="Portfolio">
+        <Header/>
+      <div id="portfolioCaption">
+        <p className="text-effect">I am proud to present my portfolio,which includes technologies such as React, Firebase, TypeScript, and more.</p>
+      </div>
+      <div id="cards">
+      <Card/>
+      <Card/>
+      <Card/>
+      </div>
+      
+    </div>
+  );
 }
 
 export default Portfolio;
