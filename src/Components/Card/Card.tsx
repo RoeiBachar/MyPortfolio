@@ -9,15 +9,16 @@ function Card(props: cardInterface): JSX.Element {
         <div id="titleCard">
           <h1>{props.name}</h1>
         </div>
-        <div id="info">
-          <p>{props.info}</p>
-        </div>
-        <div id="mainCardContainer">
-          <div id="skils">
+        <div id="skils">
             {props.skils.map((item) => (
               <p>⭐{item}</p>
             ))}
           </div>
+        <div id="info">
+          <p>{props.info}</p>
+        </div>
+        <div id="mainCardContainer">
+         
           <div id="photoCard">
             <img src={props.image} />
           </div>
