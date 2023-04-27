@@ -1,6 +1,7 @@
 export interface cardInterface {
     name: string,
     info: string,
-    image: string,
+    imagePc: string,
+    imageIphone?: string
     skils: string[]
 }
