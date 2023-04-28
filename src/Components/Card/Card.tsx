@@ -3,7 +3,6 @@ import { cardInterface } from "../../interfaces/cardInterface";
 import git from "../../img/GitHub-Logo.jpg";
 import website from "../../img/Screenshot_3.png";
 
-
 function Card(props: cardInterface): JSX.Element {
   return (
     <div className="Card">
@@ -21,15 +20,14 @@ function Card(props: cardInterface): JSX.Element {
             <p>{props.info}</p>
           </div>
           <div id="photoCard">
-            <img className="pc" src={props.imagePc} />
-            <img className="phone" src={props.imageIphone} height={650} />
+            <img draggable="false"className="pc" src={props.imagePc} />
+            <img draggable="false"className="phone" src={props.imageIphone} height={650} />
           </div>
         </div>
 
         <div id="links">
-        
-          <img src={git} width={300} />
-          <img src={website} width={300}  />
+          <img draggable="false" src={git} width={300} />
+          <img draggable="false" src={website} width={300} />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .Home {
     user-select: none; 
-    background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
+    background-image: linear-gradient(to right , rgb(129, 112, 44),rgba(207, 206, 206, 0.831));
     height: 90.5vh;
     font-family: Fantasy;
     text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
@@ -8,6 +8,12 @@
     padding: 5vh;
 }
 
+@media (max-width: 768px) {
+    .Home {
+        height: auto;
+        padding: 10vh 5vw;
+    }
+}
 
 #title {
     font-size: 15vh;
@@ -15,10 +21,22 @@
     
 }
 
+@media (max-width: 768px) {
+    #title {
+        font-size: 10vh;
+    }
+}
+
 #roleTitle {
     font-size: 7vh;
     margin: 0;
 
+}
+
+@media (max-width: 768px) {
+    #roleTitle {
+        font-size: 5vh;
+    }
 }
 
 #descriptionTitle {
@@ -29,6 +47,14 @@
     margin-top: 10px;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+    #descriptionTitle {
+        font-size: 2vh;
+        width: 80vw;
+    }
+}
+
 button {
     margin-top: 5vh;
     background-color: #000000; /* Green background */
@@ -42,9 +68,16 @@ button {
     border-radius: 6px; /* Rounded corners */
     cursor: pointer; /* Add hover effect */
     transition: background-color 0.3s ease; /* Add smooth background transition */
-  }
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 2vh;
+        padding: 8px 14px;
+    }
+}
   
-  button:hover {
+button:hover {
     color:black;
     background-color: white; /* Darker green on hover */
-  }
+}

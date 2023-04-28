@@ -1,11 +1,13 @@
 .Portfolio {
-    background-image: linear-gradient(to top, rgba(215, 197, 197, 0.831), rgb(161, 143, 40));
+    background-image: linear-gradient(to right , rgb(129, 112, 44),rgba(207, 206, 206, 0.831));
     height: 400.5vh;
+    user-select: none;
+
+
 }
 
 .text-effect {
     overflow: hidden;
-    animation: typing 6s steps(250) forwards;
     margin: 0;
     font-size: 3vh;
     font-weight: bolder;
@@ -16,15 +18,7 @@
     text-align: center;
 }
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
 
-    to {
-        width: 100%;
-    }
-}
 
 #cards {
     margin-top: 5vh;

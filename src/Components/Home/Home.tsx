@@ -1,17 +1,6 @@
 import "./Home.css";
-import "../../../src/"
+import "../../../src/";
 function Home(): JSX.Element {
-    const onButtonClick = () => {
-        fetch('RoeiBacharResume-ReactDeveloper.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'RoeiBacharResume-ReactDeveloper.pdf';
-                alink.click();
-            })
-        })
-    }
   return (
     <div className="Home">
       <p id="title"> I'm Roei Bachar</p>
@@ -21,12 +10,10 @@ function Home(): JSX.Element {
         portfolio website provides a comprehensive overview of my React skills
         and my dedication to staying up-to-date with the latest industry trends.
       </p>
-      <button onClick={onButtonClick}>Download CV</button>
-      <p>OR</p>
       <a target="_blank" href="https://www.linkedin.com/in/roeibachar1/">
         <img
           src="https://cdn-icons-png.flaticon.com/512/179/179330.png"
-          width={100}
+          style={{maxWidth:"100%",height:"auto", width:"25vh",marginTop:"3vh"}}
         />
       </a>
     </div>

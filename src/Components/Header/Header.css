@@ -1,5 +1,5 @@
 .Header {
-    background-color: rgb(161, 143, 40);
+    background-image: linear-gradient(to right , rgb(112, 96, 35),rgba(207, 206, 206, 0.831));
 }
 
 
@@ -11,7 +11,9 @@ nav ul {
     padding: 0;
     margin: 0;
     padding-right: 8vh;
+    border: 2px solid black;
 }
+
 
 
 a {

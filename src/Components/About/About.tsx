@@ -19,7 +19,7 @@ function About(): JSX.Element {
         
       <Header />
       <div className="content">
-        <h1 className="text-effect">All you need to know about me</h1>
+        <h1>All you need to know about me</h1>
         <img className="blur" src={Roeiimg} />
         <p className="fade-in2">22 Years old, Live in Bat-Yam</p>
         <p className="fade-in3">

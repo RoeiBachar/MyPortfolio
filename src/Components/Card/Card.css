@@ -67,6 +67,7 @@
   
   .pc {
     display: block;
+    
   }
   
   .phone {
@@ -80,3 +81,7 @@
   #photoCard:hover .phone {
     display: block;
   }
+
+
+
+  
