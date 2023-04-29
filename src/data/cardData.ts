@@ -23,7 +23,8 @@ export const cardData: cardInterface[] =
                 "Redux-TK",
                 "Router + Hash",
                 "CSS Flexbox",
-                "CSS Media Queries"
+                "CSS Media Queries",
+                "uuidv4"
             ],
             gitHubLink: "https://github.com/RoeiBachar/adamSandler",
             websiteLink: "",
