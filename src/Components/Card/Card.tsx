@@ -26,7 +26,7 @@ function Card(props: cardInterface): JSX.Element {
         </div>
 
         <div id="links">
-          <img draggable="false" src={git} width={300} />
+          <a href={props.gitHubLink} target="_blank"><img draggable="false" src={git} width={300} /></a>
           <img draggable="false" src={website} width={300} />
         </div>
       </div>

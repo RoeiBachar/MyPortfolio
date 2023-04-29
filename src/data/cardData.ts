@@ -1,26 +1,32 @@
-import { cardInterface } from "../interfaces/cardInterface";
 import adamSandlerPc from "../img/12.png";
 import adamSandlerIphone from "../img/iphone.png";
 import yummitPc from "../img/13.png";
 import yummitIphone from "../img/13a.png";
 import quizPc from "../img/14.png";
 import quizIphone from "../img/14a.png";
+import PortfolioPc from "../img/15.png";
+import PortfolioIphone from "../img/15a.jpg";
+import { cardInterface } from "../interfaces/cardInterface";
 
 export const cardData: cardInterface[] =
     [
         {
             name: "Adam Sandler",
-            info: "This Adam Sandler website is a comprehensive online resource for fans of the actor and comedian. The site features detailed information about Adam Sandler's life, including his early years, his rise to fame in Hollywood, and his current work in the entertainment industry. It also includes a thorough listing of his filmography, complete with plot summaries, ratings, and reviews from fans and critics alike. With its sleek and user-friendly design, this website is the perfect destination for fans of Adam Sandler who want to learn more about the actor and his movies.",
+            info: "This website is an online resource for fans of Adam Sandler. It provides information about his life, rise to fame, and work in the entertainment industry. It includes a comprehensive filmography with plot summaries, ratings, and reviews. The site has a sleek design and is user-friendly, making it the perfect destination for Adam Sandler fans looking to learn more about the actor and his movies.",
             imagePc: adamSandlerPc,
             imageIphone: adamSandlerIphone,
             skils: [
                 "React",
                 "TypeScript",
                 "FireBase",
+                "Web Storage",
                 "Redux-TK",
                 "Router + Hash",
-                "CSS - Flex",
-            ]
+                "CSS Flexbox",
+                "CSS Media Queries"
+            ],
+            gitHubLink: "https://github.com/RoeiBachar/adamSandler",
+            websiteLink: "",
         },
         {
             name: "Yummit",
@@ -33,15 +39,31 @@ export const cardData: cardInterface[] =
                 "Web Storage",
                 "Router",
                 "Material UI",
-                "Canva"
-              ]
+                "Canva",
+                "CSS Flexbox",
+                "CSS Media Queries"
+            ],
+            gitHubLink: "https://github.com/RoeiBachar/yummitProject",
+            websiteLink: "",
+
         },
         {
             name: "Football Quiz",
-            info: "Do you think you know everything about football? Try to solve the quiz without making any mistakes and you'll be crowned the kings offootball!",
+            info: "From a young age, I have been addicted to football. I know all the teams and players, and I never miss an important game. Do you think you know everything about soccer too? Good luck!",
             imagePc: quizPc,
             imageIphone: quizIphone,
-            skils: ["React", "TypeScript", "CSS - Flex"]
+            skils: ["React", "TypeScript", "Router", "CSS Flexbox", "CSS Media Queries"],
+            gitHubLink: "https://github.com/RoeiBachar/FootballQuiz",
+            websiteLink: "",
+        },
+        {
+            name: "My Portfolio",
+            info: "Whether you're a potential employer or a fellow developer, this portfolio website provides a comprehensive overview of my React skills and my dedication to staying up-to-date with the latest industry trends.",
+            imagePc: PortfolioPc,
+            imageIphone: PortfolioIphone,
+            skils: ["React", "TypeScript", "Router", "CSS Flexbox", "CSS Media Queries", "CSS @keyframes"],
+            gitHubLink: "https://github.com/RoeiBachar/MyPortfolio",
+            websiteLink: "",
         },
 
     ]

@@ -55,8 +55,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 4vh
-}
+    gap: 4vh;
+ }
 
 #photoCard {
     position: relative;

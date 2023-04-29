@@ -1,11 +1,7 @@
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import "./Portfolio.css";
-import adamSandlerPc from "../../img/12.png";
-import adamSandlerIphone from "../../img/iphone.png";
 import { cardData } from "../../data/cardData";
-
-
 
 function Portfolio(): JSX.Element {
   return (
@@ -18,11 +14,9 @@ function Portfolio(): JSX.Element {
         </p>
       </div>
       <div id="cards">
-        {cardData.map((item)=>
-    <Card {...item} />
-        )}
-       
-    
+        {cardData.map((item) => (
+          <Card {...item} />
+        ))}
       </div>
     </div>
   );
