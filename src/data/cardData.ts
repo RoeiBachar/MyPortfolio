@@ -20,7 +20,7 @@ export const cardData: cardInterface[] =
                 "TypeScript",
                 "FireBase",
                 "Web Storage",
-                "Redux-TK",
+                "Redux Toolkit",
                 "Router + Hash",
                 "CSS Flexbox",
                 "CSS Media Queries",
@@ -37,6 +37,7 @@ export const cardData: cardInterface[] =
             skils: [
                 "React",
                 "TypeScript",
+                "Redux Toolkit",
                 "Web Storage",
                 "Router",
                 "Material UI",
