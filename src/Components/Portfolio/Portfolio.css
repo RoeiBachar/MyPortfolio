@@ -1,6 +1,6 @@
 .Portfolio {
-    background-image: linear-gradient(to right , rgb(129, 112, 44),rgba(207, 206, 206, 0.831));
-    height: 500.5vh;
+    background-image: linear-gradient(to right, rgb(129, 112, 44), rgba(207, 206, 206, 0.831));
+    height: 500.5rem;
     user-select: none;
 
 
@@ -9,21 +9,27 @@
 .text-effect {
     overflow: hidden;
     margin: 0;
-    font-size: 3vh;
+    font-size: 3rem;
     font-weight: bolder;
     color: black;
     font-family: Fantasy;
     text-shadow: 6px 6px 1px white(0, 0, 0, 0.1);
-    margin-top: 5vh;
+    margin-top: 5rem;
     text-align: center;
 }
 
 
 
 #cards {
-    margin-top: 5vh;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 2vh;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .text-effect {
+        font-size: 2rem;
+    }
 }
