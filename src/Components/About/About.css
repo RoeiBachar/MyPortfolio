@@ -1,330 +1,314 @@
 .About {
-    background-image: linear-gradient(to right, rgb(129, 112, 44), rgba(207, 206, 206, 0.831));
-    height: auto;
-    user-select: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(129, 112, 44),
+    rgba(207, 206, 206, 0.831)
+  );
+  height: auto;
+  user-select: none;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
-    text-align: center;
-    font-family: Fantasy;
-    font-size: 2rem;
-    padding: 2rem 0;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-
+  text-align: center;
+  font-family: Fantasy;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.content>img {
-    border-radius: 50%;
-    /* width: 30rem; */
-    max-width: 100%;
+.content > img {
+  border-radius: 50%;
+  /* width: 30rem; */
+  max-width: 100%;
 }
 
 .fade-in {
-    opacity: 0;
-    animation: fade-in 3s forwards;
+  opacity: 0;
+  animation: fade-in 3s forwards;
 }
 
 .fade-in2 {
-    opacity: 0;
-    animation: fade-in 4s forwards;
+  opacity: 0;
+  animation: fade-in 4s forwards;
 }
 
 .fade-in3 {
-    opacity: 0;
-    animation: fade-in 5s forwards;
+  opacity: 0;
+  animation: fade-in 5s forwards;
 }
 
 .fade-in4 {
-    opacity: 0;
-    animation: fade-in 6s forwards;
+  opacity: 0;
+  animation: fade-in 6s forwards;
 }
 
 .fade-in5 {
-    opacity: 0;
-    animation: fade-in 3s forwards;
-
+  opacity: 0;
+  animation: fade-in 3s forwards;
 }
 
 .fade-in6 {
-    opacity: 0;
-    animation: fade-in 8s forwards;
+  opacity: 0;
+  animation: fade-in 8s forwards;
 }
 
 .fade-in7 {
-    opacity: 0;
-    animation: fade-in 9s forwards;
+  opacity: 0;
+  animation: fade-in 9s forwards;
 }
 
 .fade-in8 {
-    opacity: 0;
-    animation: fade-in 10s forwards;
+  opacity: 0;
+  animation: fade-in 10s forwards;
 }
 
-
-
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    50% {
-        opacity: 0.5;
-    }
+  50% {
+    opacity: 0.5;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 .text-effect {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3s steps(20) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20) forwards;
 }
 
 .blur {
-    animation: blur 3s ease-in-out forwards;
-    filter: blur(10px);
+  animation: blur 3s ease-in-out forwards;
+  filter: blur(10px);
 }
 
 @keyframes blur {
-    0% {
-        filter: blur(10px);
-    }
+  0% {
+    filter: blur(10px);
+  }
 
-    100% {
-        filter: blur(0);
-    }
+  100% {
+    filter: blur(0);
+  }
 }
 
 @keyframes typing {
-    from {
-        width: 0;
-    }
+  from {
+    width: 0;
+  }
 
-    to {
-        width: 100%;
-    }
+  to {
+    width: 100%;
+  }
 }
 
 .image-effect {
-    animation: zoom-in 8s ease-in-out infinite alternate;
+  /* animation: zoom-in 8s ease-in-out infinite alternate; */
 }
 
 @keyframes zoom-in {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    50% {
-        transform: scale(1.1);
-    }
+  50% {
+    transform: scale(1.1);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
 h1 {
-    font-size: 5rem;
-    margin-top: 2rem;
+  font-size: 5rem;
 }
 
 h2 {
-    font-size: 4rem;
-    margin-top: 2rem;
+  font-size: 4rem;
 }
 
 h3 {
-    font-size: 3rem;
-    margin-top: 2rem;
+  font-size: 3rem;
 }
-
 
 #educationContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
 }
 
-#educationContainer>div {
-    width: 45%;
-    margin-top: 3rem;
+#educationContainer > div {
+  width: 45%;
+  margin-top: 3rem;
 }
 
-#educationContainer>div>img {
-    width: 20rem;
-    max-width: 100%;
-    margin-top: 2rem;
-    border-radius: 50%;
+#educationContainer > div > img {
+  width: 20rem;
+  max-width: 100%;
 
+  border-radius: 50%;
 }
 
-#educationContainer>div>h4 {
-    font-size: 3rem;
-    margin-top: 2rem;
+#educationContainer > div > h4 {
+  font-size: 3rem;
 }
 
-#educationContainer>div>h2 {
-    font-size: 4rem;
-    margin-top: 2rem;
+#educationContainer > div > h2 {
+  font-size: 4rem;
 }
 
-#educationContainer>div>span {
-    font-size: 3rem;
-    margin-top: 2rem;
+#educationContainer > div > span {
+  font-size: 3rem;
 }
 
-#educationContainer>div>p {
-    font-size: 3rem;
-    margin-top: 2rem;
-    line-height: 1.5;
+#educationContainer > div > p {
+  font-size: 3rem;
+
+  line-height: 1.5;
 }
 
 #scrollImageContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#scrollImageContainer>img {
-    width: 12rem;
-    max-width: 100%;
-    border-radius: 50%;
-
+#scrollImageContainer > img {
+  width: 12rem;
+  max-width: 100%;
+  border-radius: 50%;
 }
 
 #contact {
-    margin-top: 5rem;
-    user-select: text;
+  user-select: text;
 }
 
-#contact>h1 {
-    margin-top: 5rem;
-    font-size: 5rem;
+#contact > h1 {
+  font-size: 5rem;
 }
 
-#contact>h3 {
-    font-size: 3rem;
+#contact > h3 {
+  font-size: 3rem;
 }
 
-#contact>p {
-    font-size: 3rem;
-    margin-top: 2rem;
-    line-height: 1.5;
+#contact > span {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 768px) {
-    .content {
-        font-size: 3.5rem;
-    }
+  .content {
+    font-size: 3.5rem;
+  }
 
-    .text-effect {
-        font-size: 2rem;
-    }
+  .text-effect {
+    font-size: 2rem;
+  }
 
+  #skils > p {
+    font-size: 2rem;
 
-    #skils>p {
-        font-size: 2rem;
-        margin-top: 2rem;
-        line-height: 1.5;
-    }
+    line-height: 1.5;
+  }
 
-    .content>img {
-        /* width: 40%; */
-    }
+  .content > img {
+    /* width: 40%; */
+  }
 
-    #educationContainer>div {
-        width: 100%;
-        margin-top: 3rem;
-    }
+  #educationContainer > div {
+    width: 100%;
+    margin-top: 3rem;
+  }
 
-    #educationContainer>div>img {
-        width: 25%;
-        margin-top: 2rem;
-    }
+  #educationContainer > div > img {
+    width: 25%;
+  }
 
-    #educationContainer>div>h4 {
-        font-size: 3.5rem;
-        margin-top: 2rem;
-    }
+  #educationContainer > div > h4 {
+    font-size: 3.5rem;
+  }
 
-    #educationContainer>div>h2 {
-        font-size: 4.5rem;
-        margin-top: 2rem;
-    }
+  #educationContainer > div > h2 {
+    font-size: 4.5rem;
+  }
 
-    #educationContainer>div>span {
-        font-size: 3.5rem;
-        margin-top: 2rem;
-    }
+  #educationContainer > div > span {
+    font-size: 3.5rem;
+  }
 
-    #educationContainer>div>p {
-        font-size: 3
-    }
+  #educationContainer > div > p {
+    font-size: 3;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  #educationContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    /* Styles for screens smaller than 768px */
-    #educationContainer {
-        flex-direction: column;
-        align-items: center;
-    }
+  #educationContainer > div {
+    width: 100%;
+  }
 
-    #educationContainer>div {
-        width: 100%;
-    }
+  #educationContainer > div > img {
+    width: 100%;
+    height: auto;
+  }
 
-    #educationContainer>div>img {
-        width: 100%;
-        height: auto;
-    }
+  #educationContainer > div > div {
+    padding: 1rem;
+  }
 
-    #educationContainer>div>div {
-        padding: 1rem;
-    }
+  #educationContainer > div > h3 {
+    font-size: 1.5rem;
+  }
 
-    #educationContainer>div>h3 {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    #educationContainer>div>p {
-        line-height: 1.5;
-    }
+  #educationContainer > div > p {
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (min-width: 769px) {
+  /* Styles for screens larger than 768px */
+  #educationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    /* Styles for screens larger than 768px */
-    #educationContainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  #educationContainer > div {
+    width: 48%;
+  }
 
-    #educationContainer>div {
-        width: 48%;
-    }
+  #educationContainer > div > img {
+    width: 100%;
+    height: auto;
+  }
 
-    #educationContainer>div>img {
-        width: 100%;
-        height: auto;
-    }
+  #educationContainer > div > div {
+    padding: 1rem;
+  }
 
-    #educationContainer>div>div {
-        padding: 1rem;
-    }
+  #educationContainer > div > h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
 
-    #educationContainer>div>h3 {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-    }
-
-    #educationContainer>div>p {
-        line-height: 1.5;
-    }
+  #educationContainer > div > p {
+    line-height: 1.5;
+  }
 }

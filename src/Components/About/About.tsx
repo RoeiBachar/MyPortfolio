@@ -16,14 +16,12 @@ import node from "../../img/node.webp";
 function About(): JSX.Element {
   return (
     <div className="About">
-        
-      <Header />
       <div className="content">
         <h1>All you need to know about me</h1>
         <img className="blur" src={Roeiimg} />
         <p className="fade-in2">22 Years old, Live in Bat-Yam</p>
         <p className="fade-in3">
-          Graduate of the John Bryce College full-stack web development course. 
+          Graduate of the John Bryce College full-stack web development course.
         </p>
         <p className="fade-in4">
           Expertise in technologies such as React and TypeScript, NodeJS, and
@@ -50,8 +48,8 @@ function About(): JSX.Element {
             <h2>John Bryce</h2>
             <span>(Collage, Tel Aviv)</span>
             <p>
-              Full Stack development in WEB technologies and applications
-              <span>(Certificate)</span>
+              Full Stack development in WEB technologies and applications (Certificate)
+
             </p>
           </div>
           <div id="ortContainer">
@@ -75,14 +73,14 @@ function About(): JSX.Element {
           <img src={sql} />
           <img src={firebase} />
         </div>
-        <div id="contact">
-        <h1>Contact me</h1>
-        <h3>☎</h3>
-        <p>054-4297959</p>
-        <h3>✉</h3>
-        <p>roeibachar972@gmail.com</p>
+        <div id="contact" style={{ display: "flex", flexDirection: "column" }}>
+          <span>Contact me</span>
+          <span>☎</span>
+          <span>054-4297959</span>
+          <span>✉</span>
+          <span>roeibachar972@gmail.com</span>
         </div>
-        
+
       </div>
     </div>
   );

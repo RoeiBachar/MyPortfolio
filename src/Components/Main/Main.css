@@ -1,7 +1,7 @@
 .Main {
-    
-
+  display: flex;
+  flex-direction: column;
 }
-#mainContainer{
-    box-shadow: inset 15px 52px 53px black;
+#mainContainer {
+  box-shadow: inset 15px 52px 53px black;
 }

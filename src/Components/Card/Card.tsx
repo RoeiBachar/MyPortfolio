@@ -25,14 +25,16 @@ function Card(props: cardInterface): JSX.Element {
           <div id="info">
             <p>{props.info}</p>
           </div>
-          <div id="photoCard">
-            <img draggable="false" className="pc" src={props.imagePc} />
-            <img
-              draggable="false"
-              className="phone"
-              src={props.imageIphone}
-              height={650}
-            />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <div id="photoCard">
+              <img draggable="false" className="pc" src={props.imagePc} />
+              <img
+                draggable="false"
+                className="phone"
+                src={props.imageIphone}
+                height={650}
+              />
+            </div>
           </div>
         </div>
 

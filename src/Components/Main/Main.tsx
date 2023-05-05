@@ -4,13 +4,12 @@ import Home from "../Home/Home";
 import "./Main.css";
 
 function Main(): JSX.Element {
-    return (
-        <div className="Main">
-           <Header/>
-            <Home/>
-          <Footer/>
-        </div>
-    );
+  return (
+    <div className="Main">
+      <Home />
+
+    </div>
+  );
 }
 
 export default Main;

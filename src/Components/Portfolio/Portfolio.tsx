@@ -6,8 +6,10 @@ import { cardData } from "../../data/cardData";
 function Portfolio(): JSX.Element {
   return (
     <div className="Portfolio">
-      <Header />
-      <div id="portfolioCaption">
+      <div id="portfolioCaption" style={{
+        paddingBottom: "1rem"
+
+      }}>
         <p className="text-effect">
           I am proud to present my portfolio,which includes technologies such as
           React, Firebase, TypeScript, and more.
