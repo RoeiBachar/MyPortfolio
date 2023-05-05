@@ -5,5 +5,5 @@ export interface cardInterface {
     imageIphone: string,
     skils: string[],
     gitHubLink: string,
-    websiteLink: string
+    websiteLink?: string
 }

@@ -27,7 +27,7 @@ export const cardData: cardInterface[] =
                 "uuidv4"
             ],
             gitHubLink: "https://github.com/RoeiBachar/adamSandler",
-            websiteLink: "",
+            websiteLink: "https://adamsandler.netlify.app",
         },
         {
             name: "Yummit",
@@ -46,7 +46,7 @@ export const cardData: cardInterface[] =
                 "CSS Media Queries"
             ],
             gitHubLink: "https://github.com/RoeiBachar/yummitProject",
-            websiteLink: "",
+            websiteLink: "https://yummit.netlify.app",
 
         },
         {
@@ -56,7 +56,7 @@ export const cardData: cardInterface[] =
             imageIphone: quizIphone,
             skils: ["React", "TypeScript", "Router", "CSS Flexbox", "CSS Media Queries"],
             gitHubLink: "https://github.com/RoeiBachar/FootballQuiz",
-            websiteLink: "",
+            websiteLink: "https://myfootballquiz.netlify.app",
         },
         {
             name: "My Portfolio",
@@ -65,7 +65,7 @@ export const cardData: cardInterface[] =
             imageIphone: PortfolioIphone,
             skils: ["React", "TypeScript", "Router", "CSS Flexbox", "CSS Media Queries", "CSS @keyframes"],
             gitHubLink: "https://github.com/RoeiBachar/MyPortfolio",
-            websiteLink: "",
+            websiteLink: "/home",
         },
 
     ]

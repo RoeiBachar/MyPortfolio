@@ -86,9 +86,7 @@
   #info > p {
     font-size: 2rem;
   }
-  #photoCard:hover .phone {
-    display: none;
-  }
+   
   #mainCardContainer {
     width: unset;
   }
