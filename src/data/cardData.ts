@@ -65,7 +65,7 @@ export const cardData: cardInterface[] =
             imageIphone: PortfolioIphone,
             skils: ["React", "TypeScript", "Router", "CSS Flexbox", "CSS Media Queries", "CSS @keyframes"],
             gitHubLink: "https://github.com/RoeiBachar/MyPortfolio",
-            websiteLink: "/home",
+            websiteLink: "https://roeibacharportfolio.netlify.app/",
         },
 
     ]

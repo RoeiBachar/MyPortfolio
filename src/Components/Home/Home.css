@@ -1,64 +1,77 @@
 .Home {
-  user-select: none;
-  background-image: linear-gradient(
-    to right,
-    rgb(129, 112, 44),
-    rgba(207, 206, 206, 0.831)
-  );
-  font-family: Fantasy;
-  text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    user-select: none;
+    background-image: linear-gradient(to right,
+            rgb(129, 112, 44),
+            rgba(207, 206, 206, 0.831));
+    font-family: Fantasy;
+    text-shadow: 6px 6px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #roleTitle {
-  font-size: 7rem;
-  margin: 0;
+    font-size: 7rem;
+    margin: 0;
 }
 
-@media (max-width: 768px) {
-  #roleTitle {
-    font-size: 5rem;
-  }
-}
+
 
 #descriptionTitle {
-  font-size: 3rem;
-  transition: opacity 0.3s ease-in-out;
-  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
-  max-width: 50%;
+    font-size: 3rem;
+    transition: opacity 0.3s ease-in-out;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
 }
 
-@media (max-width: 768px) {
-  #descriptionTitle {
-    font-size: 2rem;
-    max-width: 100%;
-  }
-}
+
 
 button {
-  background-color: #000000; /* Green background */
-  border: none; /* Remove button border */
-  color: white; /* Text color */
-  padding: 12px 20px; /* Add padding */
-  text-align: center; /* Center text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make the button inline */
-  font-size: 2.5rem; /* Font size */
-  border-radius: 6px; /* Rounded corners */
-  cursor: pointer; /* Add hover effect */
-  transition: background-color 0.3s ease; /* Add smooth background transition */
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    color: black;
+    background-color: white;
+    /* Darker green on hover */
 }
 
 @media (max-width: 768px) {
-  button {
-    font-size: 2rem;
-    padding: 8px 14px;
-  }
-}
+    .Home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: black;
+        text-shadow: 6px 6px 1px white(0, 0, 0, 0.1);
+    }
+   
 
-button:hover {
-  color: black;
-  background-color: white; /* Darker green on hover */
+    #descriptionTitle {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    #title {
+        font-size: 2rem;
+
+    }
+
+    #roleTitle {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 2rem;
+        padding: 8px 14px;
+    }
 }
