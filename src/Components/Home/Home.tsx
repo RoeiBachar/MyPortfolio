@@ -13,7 +13,7 @@ function Home(): JSX.Element {
       <a target="_blank" href="https://www.linkedin.com/in/roeibachar1/">
         <img
           src="https://cdn-icons-png.flaticon.com/512/179/179330.png"
-          style={{maxWidth:"100%",height:"auto"}}
+          style={{maxWidth:"50%",height:"auto"}}
         />
       </a>
     </div>
