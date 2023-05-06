@@ -1,7 +1,10 @@
 .Footer {
 	background-color: black;
     color:white;
-    font-size: 20px;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    font-family: cursive
 }
 
 .Footer>p{

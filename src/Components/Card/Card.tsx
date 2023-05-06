@@ -40,10 +40,10 @@ function Card(props: cardInterface): JSX.Element {
 
         <div id="links">
           <a href={props.gitHubLink} target="_blank">
-            <img draggable="false" src={git} width={300} />
+            <img id="gitLinkImg" draggable="false" src={git} width={300} />
           </a>
           <a href={props.websiteLink} target="_blank">
-          <img draggable="false" src={website} width={300} />
+          <img id="webLinkImg" draggable="false" src={website} width={300} />
           </a>
         </div>
       </div>

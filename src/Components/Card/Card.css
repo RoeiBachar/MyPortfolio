@@ -61,7 +61,6 @@
 
 .pc {
     display: block;
-    /* max-width: 30%; */
 }
 
 .phone {
@@ -78,11 +77,29 @@
 
 @media screen and (max-width: 768px) {
     
+    #links{
+        flex-direction: row;
+        gap: 0;
+    }
+    #webLinkImg{
+        width: 10rem;
+    }
+    #gitLinkImg{
+        width: 10rem;
+    }
     #cardContainer {
         display: flex;
         flex-direction: column;
     }
 
+    #skils {
+       
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     #info>p {
         font-size: 1rem;
         font-family: Arial, Helvetica, sans-serif;

@@ -22,28 +22,25 @@ function About(): JSX.Element {
         <p className="fade-in2">22 Years old, Live in Bat-Yam</p>
         <p className="fade-in3">
           Graduate of the John Bryce College full-stack web development course.
-        </p>
-        <p className="fade-in4">
           Expertise in technologies such as React and TypeScript, NodeJS, and
           SQL.
         </p>
+        
         <h2 className="fade-in6">
           Excellent team player, enjoy challenges, fast learner and diligent.
         </h2>
-        <img className="fade-in7" src={IDFimg} />
+        <img className="fade-in7" id="idfImg" src={IDFimg} />
         <p className="fade-in7">
           During my military service, I made orders and approvals for the
           purchase of oils and fuels from factories both in Israel and abroad
           using the SAP system.
-        </p>
-        <p className="fade-in7">
           This was done in coordination with the procurement and production
           administration at the Ministry of Defense for IDF bases throughout the
           country.
         </p>
         <div id="educationContainer">
           <div id="jbContainer">
-            <img className="image-effect" src={JB} />
+            <img className="image-effect" id="jbImg"src={JB} />
             <h4>2022-2023</h4>
             <h2>John Bryce</h2>
             <span>(Collage, Tel Aviv)</span>
@@ -53,7 +50,7 @@ function About(): JSX.Element {
             </p>
           </div>
           <div id="ortContainer">
-            <img className="image-effect" src={ORT} />
+            <img className="image-effect" id="ortImg" src={ORT} />
             <h4>2013 - 2019</h4>
             <h2>Ort Ramat Yosef</h2>
             <span>(High-School, Bat-Yam)</span>
