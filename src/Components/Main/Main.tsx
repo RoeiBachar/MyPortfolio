@@ -7,7 +7,6 @@ function Main(): JSX.Element {
   return (
     <div className="Main">
       <Home />
-
     </div>
   );
 }
